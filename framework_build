@@ -6,7 +6,7 @@ function help() {
 	echo "-w 项目workspace的名称，可选, 默认使用scheme的名称"
 	echo "-d 是否在Debug环境下打包, 0: 在Release环境下 1： 在Debug环境下，默认0"
 	echo "-o 打包完成后是否自动打开文件夹，1：打开 0：不打开。默认为1，打开"  
-	echo "使用范例: makeFramework -s MyProject -d 1"
+	echo "使用范例: framework_build -s MyProject -d 1"
 	echo "*****************************"
 }
 
